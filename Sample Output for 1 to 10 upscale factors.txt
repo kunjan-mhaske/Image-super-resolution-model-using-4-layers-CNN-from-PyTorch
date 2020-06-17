@@ -1,0 +1,442 @@
+Upscale Factor 1
+
+python generate_model.py --upscale_factor 1 --batchSize 4 --testBatchSize 100 --nEpochs 10 --lr 0.001
+
+Namespace(batchSize=4, cuda=False, lr=0.001, nEpochs=10, seed=123, testBatchSize=100, threads=4, upscale_factor=1)
+cpu
+===> Loading datasets
+===> Building model
+
+===> Epoch 1 Complete: Avg. Loss: 0.0099
+===> Avg. PSNR: 31.3915 dB
+Checkpoint saved to model_epoch_1.pth
+===> Avg. PSNR: 36.6675 dB
+===> Avg. PSNR: 38.6528 dB
+===> Avg. PSNR: 40.2229 dB
+
+===> Epoch 5 Complete: Avg. Loss: 0.0001
+===> Avg. PSNR: 41.2345 dB
+Checkpoint saved to model_epoch_5.pth
+===> Avg. PSNR: 40.9789 dB
+===> Avg. PSNR: 43.0093 dB
+===> Avg. PSNR: 43.5895 dB
+===> Avg. PSNR: 43.2342 dB
+
+===> Epoch 10 Complete: Avg. Loss: 0.0000
+===> Avg. PSNR: 44.2150 dB
+Checkpoint saved to model_epoch_10.pth
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Upscale Factor 2
+
+python generate_model.py --cuda --upscale_factor 2 --batchSize 4 --testBatchSize 100 --nEpochs 40 --lr 0.001
+
+Namespace(batchSize=4, cuda=True, lr=0.001, nEpochs=40, seed=123, testBatchSize=100, threads=4, upscale_factor=2)
+cuda
+===> Loading datasets
+===> Building model
+
+===> Epoch 1 Complete: Avg. Loss: 0.0139
+===> Avg. PSNR: 23.5367 dB
+Checkpoint saved to model_epoch_1.pth
+
+===> Epoch 5 Complete: Avg. Loss: 0.0020
+===> Avg. PSNR: 26.5851 dB
+Checkpoint saved to model_epoch_5.pth
+
+===> Epoch 10 Complete: Avg. Loss: 0.0018
+===> Avg. PSNR: 27.0264 dB
+Checkpoint saved to model_epoch_10.pth
+
+===> Epoch 15 Complete: Avg. Loss: 0.0018
+===> Avg. PSNR: 27.0146 dB
+Checkpoint saved to model_epoch_15.pth
+
+===> Epoch 20 Complete: Avg. Loss: 0.0018
+===> Avg. PSNR: 26.7195 dB
+Checkpoint saved to model_epoch_20.pth
+
+===> Epoch 25 Complete: Avg. Loss: 0.0017
+===> Avg. PSNR: 27.2766 dB
+Checkpoint saved to model_epoch_25.pth
+
+===> Epoch 30 Complete: Avg. Loss: 0.0016
+===> Avg. PSNR: 26.4719 dB
+Checkpoint saved to model_epoch_30.pth
+
+===> Epoch 35 Complete: Avg. Loss: 0.0016
+===> Avg. PSNR: 27.3102 dB
+Checkpoint saved to model_epoch_35.pth
+
+===> Epoch 40 Complete: Avg. Loss: 0.0017
+===> Avg. PSNR: 27.3048 dB
+Checkpoint saved to model_epoch_40.pth
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+Upscale Factor 3
+
+python generate_model.py --upscale_factor 3 --batchSize 4 --testBatchSize 100 --nEpochs 30 --lr 0.001
+
+Namespace(batchSize=4, cuda=False, lr=0.001, nEpochs=30, seed=123, testBatchSize=100, threads=4, upscale_factor=3)
+===> Loading datasets
+===> Building model
+
+===> Epoch 1 Complete: Avg. Loss: 0.0294
+===> Avg. PSNR: 20.5728 dB
+Checkpoint saved to model_epoch_1.pth
+
+===> Epoch 5 Complete: Avg. Loss: 0.0040
+===> Avg. PSNR: 23.7109 dB
+Checkpoint saved to model_epoch_5.pth
+
+===> Epoch 10 Complete: Avg. Loss: 0.0034
+===> Avg. PSNR: 24.3121 dB
+Checkpoint saved to model_epoch_10.pth
+
+===> Epoch 15 Complete: Avg. Loss: 0.0033
+===> Avg. PSNR: 24.3953 dB
+Checkpoint saved to model_epoch_15.pth
+
+===> Epoch 20 Complete: Avg. Loss: 0.0033
+===> Avg. PSNR: 24.3237 dB
+Checkpoint saved to model_epoch_20.pth
+
+===> Epoch 25 Complete: Avg. Loss: 0.0032
+===> Avg. PSNR: 24.5198 dB
+Checkpoint saved to model_epoch_25.pth
+
+===> Epoch 30 Complete: Avg. Loss: 0.0032
+===> Avg. PSNR: 24.5422 dB
+Checkpoint saved to model_epoch_30.pth
+
+===> Epoch 40 Complete: Avg. Loss: 0.0031
+===> Avg. PSNR: 24.5976 dB
+Checkpoint saved to model_epoch_40.pth
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+Upscale factor 4
+
+python generate_model.py --cuda --upscale_factor 4 --batchSize 4 --testBatchSize 100 --nEpochs 40 --lr 0.001
+
+Namespace(batchSize=4, cuda=True, lr=0.001, nEpochs=40, seed=123, testBatchSize=100, threads=4, upscale_factor=4)
+cuda
+===> Loading datasets
+===> Building model
+
+===> Epoch 1 Complete: Avg. Loss: 0.0271
+===> Avg. PSNR: 19.8737 dB
+Checkpoint saved to model_epoch_1.pth
+
+===> Epoch 5 Complete: Avg. Loss: 0.0053
+===> Avg. PSNR: 22.5150 dB
+Checkpoint saved to model_epoch_5.pth
+
+===> Epoch 10 Complete: Avg. Loss: 0.0047
+===> Avg. PSNR: 22.9736 dB
+Checkpoint saved to model_epoch_10.pth
+
+===> Epoch 15 Complete: Avg. Loss: 0.0045
+===> Avg. PSNR: 23.1139 dB
+Checkpoint saved to model_epoch_15.pth
+
+===> Epoch 20 Complete: Avg. Loss: 0.0044
+===> Avg. PSNR: 23.1705 dB
+Checkpoint saved to model_epoch_20.pth
+
+===> Epoch 25 Complete: Avg. Loss: 0.0045
+===> Avg. PSNR: 22.9914 dB
+Checkpoint saved to model_epoch_25.pth
+
+===> Epoch 30 Complete: Avg. Loss: 0.0044
+===> Avg. PSNR: 23.2189 dB
+Checkpoint saved to model_epoch_30.pth
+
+===> Epoch 35 Complete: Avg. Loss: 0.0044
+===> Avg. PSNR: 23.2420 dB
+Checkpoint saved to model_epoch_35.pth
+
+===> Epoch 40 Complete: Avg. Loss: 0.0044
+===> Avg. PSNR: 23.2204 dB
+Checkpoint saved to model_epoch_40.pth
+
+++++++++++++++++++++++++++++++++++++++++++++++
+Upscale Factor 5 
+
+python generate_model.py --cuda --upscale_factor 5 --batchSize 4 --testBatchSize 100 --nEpochs 40 --lr 0.001
+
+Namespace(batchSize=4, cuda=True, lr=0.001, nEpochs=40, seed=123, testBatchSize=100, threads=4, upscale_factor=5)
+cuda
+===> Loading datasets
+===> Building model
+===> Epoch 1 Complete: Avg. Loss: 0.0317
+===> Avg. PSNR: 19.0399 dB
+Checkpoint saved to model_epoch_1.pth
+
+===> Epoch 5 Complete: Avg. Loss: 0.0064
+===> Avg. PSNR: 21.8126 dB
+Checkpoint saved to model_epoch_5.pth
+
+===> Epoch 10 Complete: Avg. Loss: 0.0056
+===> Avg. PSNR: 22.2204 dB
+Checkpoint saved to model_epoch_10.pth
+
+===> Epoch 15 Complete: Avg. Loss: 0.0057
+===> Avg. PSNR: 22.2809 dB
+Checkpoint saved to model_epoch_15.pth
+
+===> Epoch 20 Complete: Avg. Loss: 0.0054
+===> Avg. PSNR: 22.3643 dB
+Checkpoint saved to model_epoch_20.pth
+
+===> Epoch 25 Complete: Avg. Loss: 0.0054
+===> Avg. PSNR: 22.3970 dB
+Checkpoint saved to model_epoch_25.pth
+
+===> Epoch 30 Complete: Avg. Loss: 0.0053
+===> Avg. PSNR: 22.4187 dB
+Checkpoint saved to model_epoch_30.pth
+
+===> Epoch 35 Complete: Avg. Loss: 0.0053
+===> Avg. PSNR: 22.4284 dB
+Checkpoint saved to model_epoch_35.pth
+
+===> Epoch 40 Complete: Avg. Loss: 0.0054
+===> Avg. PSNR: 21.6624 dB
+Checkpoint saved to model_epoch_40.pth
+
++++++++++++++++++++++++++++++++++++++++++++++
+Upscale factor 6
+
+python generate_model.py --cuda --upscale_factor 6 --batchSize 4 --testBatchSize 100 --nEpochs 40 --lr 0.001
+
+Namespace(batchSize=4, cuda=True, lr=0.001, nEpochs=40, seed=123, testBatchSize=100, threads=4, upscale_factor=6)
+cuda
+===> Loading datasets
+===> Building model
+
+===> Epoch 1 Complete: Avg. Loss: 0.0402
+===> Avg. PSNR: 18.4375 dB
+Checkpoint saved to model_epoch_1.pth
+
+===> Epoch 5 Complete: Avg. Loss: 0.0075
+===> Avg. PSNR: 21.0204 dB
+Checkpoint saved to model_epoch_5.pth
+
+===> Epoch 10 Complete: Avg. Loss: 0.0064
+===> Avg. PSNR: 21.6369 dB
+Checkpoint saved to model_epoch_10.pth
+
+===> Epoch 15 Complete: Avg. Loss: 0.0069
+===> Avg. PSNR: 21.6355 dB
+Checkpoint saved to model_epoch_15.pth
+
+===> Epoch 20 Complete: Avg. Loss: 0.0062
+===> Avg. PSNR: 21.7715 dB
+Checkpoint saved to model_epoch_20.pth
+
+===> Epoch 25 Complete: Avg. Loss: 0.0062
+===> Avg. PSNR: 21.7938 dB
+Checkpoint saved to model_epoch_25.pth
+
+===> Epoch 30 Complete: Avg. Loss: 0.0062
+===> Avg. PSNR: 21.7258 dB
+Checkpoint saved to model_epoch_30.pth
+
+===> Epoch 35 Complete: Avg. Loss: 0.0061
+===> Avg. PSNR: 21.8483 dB
+Checkpoint saved to model_epoch_35.pth
+
+===> Epoch 40 Complete: Avg. Loss: 0.0060
+===> Avg. PSNR: 21.8598 dB
+Checkpoint saved to model_epoch_40.pth
+
++++++++++++++++++++++++++++++++++++++++++++
+Upscale Factor 7
+
+python generate_model.py --cuda --upscale_factor 7 --batchSize 4 --testBatchSize 100 --nEpochs 40 --lr 0.001
+
+Namespace(batchSize=4, cuda=True, lr=0.001, nEpochs=40, seed=123, testBatchSize=100, threads=4, upscale_factor=7)
+cuda
+===> Loading datasets
+===> Building model
+
+===> Epoch 1 Complete: Avg. Loss: 0.0484
+===> Avg. PSNR: 17.9543 dB
+Checkpoint saved to model_epoch_1.pth
+
+===> Epoch 5 Complete: Avg. Loss: 0.0091
+===> Avg. PSNR: 20.3257 dB
+Checkpoint saved to model_epoch_5.pth
+
+===> Epoch 10 Complete: Avg. Loss: 0.0075
+===> Avg. PSNR: 20.8836 dB
+Checkpoint saved to model_epoch_10.pth
+
+===> Epoch 15 Complete: Avg. Loss: 0.0071
+===> Avg. PSNR: 21.0381 dB
+Checkpoint saved to model_epoch_15.pth
+
+===> Epoch 20 Complete: Avg. Loss: 0.0069
+===> Avg. PSNR: 21.2825 dB
+Checkpoint saved to model_epoch_20.pth
+
+===> Epoch 25 Complete: Avg. Loss: 0.0068
+===> Avg. PSNR: 21.3162 dB
+Checkpoint saved to model_epoch_25.pth
+
+===> Epoch 30 Complete: Avg. Loss: 0.0068
+===> Avg. PSNR: 21.3387 dB
+Checkpoint saved to model_epoch_30.pth
+
+===> Epoch 35 Complete: Avg. Loss: 0.0068
+===> Avg. PSNR: 21.3556 dB
+Checkpoint saved to model_epoch_35.pth
+
+===> Epoch 40 Complete: Avg. Loss: 0.0068
+===> Avg. PSNR: 21.3621 dB
+Checkpoint saved to model_epoch_40.pth
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Upscale factor 8
+
+python generate_model.py --cuda --upscale_factor 8 --batchSize 4 --testBatchSize 100 --nEpochs 40 --lr 0.001
+
+Namespace(batchSize=4, cuda=True, lr=0.001, nEpochs=40, seed=123, testBatchSize=100, threads=4, upscale_factor=8)
+cuda
+===> Loading datasets
+===> Building model
+
+===> Epoch 1 Complete: Avg. Loss: 0.0426
+===> Avg. PSNR: 17.7054 dB
+Checkpoint saved to model_epoch_1.pth
+
+===> Epoch 5 Complete: Avg. Loss: 0.0082
+===> Avg. PSNR: 20.5975 dB
+Checkpoint saved to model_epoch_5.pth
+
+===> Epoch 10 Complete: Avg. Loss: 0.0077
+===> Avg. PSNR: 20.8260 dB
+Checkpoint saved to model_epoch_10.pth
+
+===> Epoch 15 Complete: Avg. Loss: 0.0077
+===> Avg. PSNR: 20.3686 dB
+Checkpoint saved to model_epoch_15.pth
+
+===> Epoch 20 Complete: Avg. Loss: 0.0075
+===> Avg. PSNR: 20.9327 dB
+Checkpoint saved to model_epoch_20.pth
+
+===> Epoch 25 Complete: Avg. Loss: 0.0075
+===> Avg. PSNR: 20.9581 dB
+Checkpoint saved to model_epoch_25.pth
+
+===> Epoch 30 Complete: Avg. Loss: 0.0076
+===> Avg. PSNR: 20.5417 dB
+Checkpoint saved to model_epoch_30.pth
+
+===> Epoch 35 Complete: Avg. Loss: 0.0074
+===> Avg. PSNR: 20.9892 dB
+Checkpoint saved to model_epoch_35.pth
+
+===> Epoch 40 Complete: Avg. Loss: 0.0073
+===> Avg. PSNR: 20.9724 dB
+Checkpoint saved to model_epoch_40.pth
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Upscale Factor 9
+
+python generate_model.py --cuda --upscale_factor 9 --batchSize 4 --testBatchSize 100 --nEpochs 40 --lr 0.001
+
+Namespace(batchSize=4, cuda=True, lr=0.001, nEpochs=40, seed=123, testBatchSize=100, threads=4, upscale_factor=9)
+cuda
+===> Loading datasets
+===> Building model
+
+===> Epoch 1 Complete: Avg. Loss: 0.0466
+===> Avg. PSNR: 17.3150 dB
+Checkpoint saved to model_epoch_1.pth
+
+===> Epoch 5 Complete: Avg. Loss: 0.0092
+===> Avg. PSNR: 19.9908 dB
+Checkpoint saved to model_epoch_5.pth
+
+===> Epoch 10 Complete: Avg. Loss: 0.0084
+===> Avg. PSNR: 20.3887 dB
+Checkpoint saved to model_epoch_10.pth
+
+===> Epoch 15 Complete: Avg. Loss: 0.0082
+===> Avg. PSNR: 20.5487 dB
+Checkpoint saved to model_epoch_15.pth
+
+===> Epoch 20 Complete: Avg. Loss: 0.0082
+===> Avg. PSNR: 20.5902 dB
+Checkpoint saved to model_epoch_20.pth
+
+===> Epoch 25 Complete: Avg. Loss: 0.0080
+===> Avg. PSNR: 20.6158 dB
+Checkpoint saved to model_epoch_25.pth
+
+===> Epoch 30 Complete: Avg. Loss: 0.0080
+===> Avg. PSNR: 20.6278 dB
+Checkpoint saved to model_epoch_30.pth
+
+===> Epoch 35 Complete: Avg. Loss: 0.0079
+===> Avg. PSNR: 20.6372 dB
+Checkpoint saved to model_epoch_35.pth
+
+===> Epoch 40 Complete: Avg. Loss: 0.0080
+===> Avg. PSNR: 20.6166 dB
+Checkpoint saved to model_epoch_40.pth
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+Upscale factor 10
+
+python generate_model.py --cuda --upscale_factor 10 --batchSize 4 --testBatchSize 100 --nEpochs 40 --lr 0.001
+
+Namespace(batchSize=4, cuda=True, lr=0.001, nEpochs=40, seed=123, testBatchSize=100, threads=4, upscale_factor=10)
+cuda
+===> Loading datasets
+===> Building model
+
+===> Epoch 1 Complete: Avg. Loss: 0.0464
+===> Avg. PSNR: 17.2421 dB
+Checkpoint saved to model_epoch_1.pth
+
+===> Epoch 5 Complete: Avg. Loss: 0.0098
+===> Avg. PSNR: 19.8200 dB
+Checkpoint saved to model_epoch_5.pth
+
+===> Epoch 10 Complete: Avg. Loss: 0.0091
+===> Avg. PSNR: 20.1056 dB
+Checkpoint saved to model_epoch_10.pth
+
+===> Epoch 15 Complete: Avg. Loss: 0.0088
+===> Avg. PSNR: 20.2183 dB
+Checkpoint saved to model_epoch_15.pth
+
+===> Epoch 20 Complete: Avg. Loss: 0.0087
+===> Avg. PSNR: 20.2779 dB
+Checkpoint saved to model_epoch_20.pth
+
+===> Epoch 25 Complete: Avg. Loss: 0.0087
+===> Avg. PSNR: 20.3009 dB
+Checkpoint saved to model_epoch_25.pth
+
+===> Epoch 30 Complete: Avg. Loss: 0.0086
+===> Avg. PSNR: 20.3354 dB
+Checkpoint saved to model_epoch_30.pth
+
+===> Epoch 35 Complete: Avg. Loss: 0.0085
+===> Avg. PSNR: 20.2906 dB
+Checkpoint saved to model_epoch_35.pth
+
+===> Epoch 40 Complete: Avg. Loss: 0.0086
+===> Avg. PSNR: 20.3537 dB
+Checkpoint saved to model_epoch_40.pth
+
+Sample command to generate super resolution from given LR image:
+python generate_super_resolution.py --input_image army.jpg --model model_epoch_10.pth --output_filename super_army.jpg --cuda
+
+Sample command to generate model based on paramenters as follows:
+python3 generate_model.py --upscale_factor 3 --trainBatchSize 4 --testBatchSize 100 --nEpochs 10 --lr 0.001 –-cuda --threads 4 --seed 123
